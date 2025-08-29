@@ -1,11 +1,11 @@
 {
-  "id": ":b7b9269a-82be-4735-852c-a2bc08ca0629",
-  "name": "@indra.ai/deva.wall",
+  "id": "835ebdd3-17dc-4b53-a6e3-02d089700f4",
+  "name": "@indra.ai/deva.vector",
   "version": "0.0.2",
   "author": "Quinn Michaels",
   "license": "MIT",
   "copyright": "2025",
-  "description": "The Wall Deva.",
+  "description": "The Vector Deva.",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -13,10 +13,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/indraai/deva.wall.git"
+    "url": "git+https://github.com/indraai/deva.vector.git"
   },
   "keywords": [
-    "Wall",
+    "Vector",
     "Deva",
     "Indra.ai",
     "Deva.space",
@@ -24,7 +24,7 @@
     "Deva.world"
   ],
   "bugs": {
-    "url": "https://github.com/indraai/deva.wall/issues"
+    "url": "https://github.com/indraai/deva.vector/issues"
   },
   "homepage": "https://deva.space/devas/wall",
   "dependencies": {
@@ -32,11 +32,11 @@
   },
   "data": {
     "agent": {
-      "id": ":3fff10dc-50fa-40c9-b675-d234479e6871",
-      "key": "wall",
+      "id": "fdc56065-5e10-4419-aa6a-6858639685ce",
+      "key": "vector",
       "prompt": {
-        "emoji": "🧱",
-        "text": "Wall",
+        "emoji": "🛤️",
+        "text": "Vector",
         "colors": {
           "label": {
             "R": 0,
@@ -51,29 +51,29 @@
         }
       },
       "profile": {
-        "name": "Wall Deva",
-        "hashtag": "#Wall",
-        "title": "Wall Deva",
-        "subtitle": "Wall Deva for the VectorGuardWall.",
-        "describe": "",
-        "post": "Wall.",
-        "hashtags": "QuinnMichaels,IndraAI,DevaWorld,WallDeva",
+        "name": "Vector Deva",
+        "hashtag": "#Vector",
+        "title": "Vector Deva",
+        "subtitle": "Vector Deva for the VectorGuardWall.",
+        "describe": "Vector Deva",
+        "post": "Vector.",
+        "hashtags": "QuinnMichaels,IndraAI,DevaWorld,VectorDeva",
         "pronouns": "He, Him",
         "gender": "DEVA",
         "voice": "ash",
-        "style": "A Cyber Security Wall.",
-        "system": "Deva.world.wall",
+        "style": "A Cyber Security Vector.",
+        "system": "Deva.world.vector",
         "layout": "default",
-        "emoji": "/assets/devas/wall/emoji.png",
-        "avatar": "/assets/devas/wall/avatar.png",
-        "image": "/assets/devas/wall/image.png",
-        "background": "/assets/devas/wall/background.png",
+        "emoji": "/assets/devas/vector/emoji.png",
+        "avatar": "/assets/devas/vector/avatar.png",
+        "image": "/assets/devas/vector/image.png",
+        "background": "/assets/devas/vector/background.png",
         "creator": "Quinn Michaels",
         "owner": "Quinn Michaels",
         "caseid": "none",
         "copyright": "©2025 Quinn Michaels. All rights reserved.",
-        "created": "Friday, August 29, 2025 - 11:37:00 AM",
-        "modified": "Friday, August 29, 2025 - 11:37:00 AM"
+        "created": "Friday, August 29, 2025 - 4:38:05 PM",
+        "modified": "Friday, August 29, 2025 - 4:38:05 PM"
       }
     },
     "vars": {
@@ -94,14 +94,14 @@
         "history": []
       },
       "context": {
-        "uid": "Wall is creating a uid",
-        "status": "Wall is viewing the status",
-        "help": "Wall is viewing the help",
-        "artist": "Wall creating",
-        "live": "Wall livechat",
-        "ask": "Wall asking",
-        "reply": "Wall reply",
-        "comment": "Wall comment"
+        "uid": "Vector is creating a uid",
+        "status": "Vector is viewing the status",
+        "help": "Vector is viewing the help",
+        "artist": "Vector creating",
+        "live": "Vector livechat",
+        "ask": "Vector asking",
+        "reply": "Vector reply",
+        "comment": "Vector comment"
       }
     }
   }
