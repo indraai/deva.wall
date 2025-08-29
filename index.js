@@ -37,10 +37,27 @@ const WALL = new Deva({
   },
   listeners: {
     'devacore:question'(packet) {
-      const question = JSON.stringify(packet.q).replace(/'/, '\'').replace(/"/, '\"');
+      const md5 = this.lib.hash(packet, 'md5');
+      const sha256 = this.lib.hash(packet, 'sha256');
+      const sha512 = this.lib.hash(packet, 'sha512');
+      const echostr = `transport: ${packet.id} md5:${md5} | sha256:${sha256} | sha512:${sha512} | created:${packet.created}`;
       // stub for later features right now just echo into the system process for SIGINT monitoring.
-      exec(`echo "${packet.q.text}"`, (error, stdout, stderr) => {
-        const result = stdout.split('\n');
+      exec(`echo "${echostr}"`, (error, stdout, stderr) => {
+        if (error) {
+          console.log('error', error);        
+        }
+        else if (stderr) {
+          console.log('stderr', stderr);
+        }
+      });
+    },
+    'devacore:answer'(packet) {
+      const md5 = this.lib.hash(packet, 'md5');
+      const sha256 = this.lib.hash(packet, 'sha256');
+      const sha512 = this.lib.hash(packet, 'sha512');
+      const echostr = `transport: ${packet.id} md5:${md5} | sha256:${sha256} | sha512:${sha512} | created:${packet.created}`;
+      // stub for later features right now just echo into the system process for SIGINT monitoring.
+      exec(`echo "${echostr}"`, (error, stdout, stderr) => {
         if (error) {
           console.log('error', error);        
         }
