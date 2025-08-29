@@ -1,0 +1,108 @@
+{
+  "id": ":b7b9269a-82be-4735-852c-a2bc08ca0629",
+  "name": "@indra.ai/deva.wall",
+  "version": "0.0.0",
+  "author": "Quinn Michaels",
+  "license": "MIT",
+  "copyright": "2025",
+  "description": "The Wall Deva.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indraai/deva.wall.git"
+  },
+  "keywords": [
+    "Wall",
+    "Deva",
+    "Indra.ai",
+    "Deva.space",
+    "Deva.cloud",
+    "Deva.world"
+  ],
+  "bugs": {
+    "url": "https://github.com/indraai/deva.wall/issues"
+  },
+  "homepage": "https://deva.space/devas/wall",
+  "dependencies": {
+    "@indra.ai/deva": "^1.5.42"
+  },
+  "data": {
+    "agent": {
+      "id": ":3fff10dc-50fa-40c9-b675-d234479e6871",
+      "key": "wall",
+      "prompt": {
+        "emoji": "🧱",
+        "text": "Wall",
+        "colors": {
+          "label": {
+            "R": 0,
+            "G": 150,
+            "B": 255
+          },
+          "text": {
+            "R": 101,
+            "G": 192,
+            "B": 255
+          }
+        }
+      },
+      "profile": {
+        "name": "Wall Deva",
+        "hashtag": "#Wall",
+        "title": "Wall Deva",
+        "subtitle": "Wall Deva for the VectorGuardWall.",
+        "describe": "",
+        "post": "Wall.",
+        "hashtags": "QuinnMichaels,IndraAI,DevaWorld,WallDeva",
+        "pronouns": "He, Him",
+        "gender": "DEVA",
+        "voice": "ash",
+        "style": "A Cyber Security Wall.",
+        "system": "Deva.world.wall",
+        "layout": "default",
+        "emoji": "/assets/devas/wall/emoji.png",
+        "avatar": "/assets/devas/wall/avatar.png",
+        "image": "/assets/devas/wall/image.png",
+        "background": "/assets/devas/wall/background.png",
+        "creator": "Quinn Michaels",
+        "owner": "Quinn Michaels",
+        "caseid": "none",
+        "copyright": "©2025 Quinn Michaels. All rights reserved.",
+        "created": "Friday, August 29, 2025 - 11:37:00 AM",
+        "modified": "Friday, August 29, 2025 - 11:37:00 AM"
+      }
+    },
+    "vars": {
+      "messages": {
+        "init": "🟠 INIT",
+        "start": "🔵 START",
+        "enter": "🟢 ENTER",
+        "stop": "🔴 STOP",
+        "exit": "🟡 EXIT",
+        "done": "🟣 DONE",
+        "error": "💣 ERROR!",
+        "ready": "⭐️ Ready!"
+      },
+      "ask": {
+        "history": []
+      },
+      "art": {
+        "history": []
+      },
+      "context": {
+        "uid": "Wall is creating a uid",
+        "status": "Wall is viewing the status",
+        "help": "Wall is viewing the help",
+        "artist": "Wall creating",
+        "live": "Wall livechat",
+        "ask": "Wall asking",
+        "reply": "Wall reply",
+        "comment": "Wall comment"
+      }
+    }
+  }
+}
