@@ -6,6 +6,7 @@ import pkg from './package.json' with {type:'json'};
 const {agent,vars} = pkg.data;
 
 import {exec, spawn}  from 'node:child_process';
+
 // set the __dirname
 import {dirname} from 'node:path';
 import {fileURLToPath} from 'node:url';    
@@ -36,7 +37,6 @@ const WALL = new Deva({
   },
   listeners: {
     'devacore:question'(packet) {
-      this.prompt(packet.md5);
       const question = JSON.stringify(packet.q).replace(/'/, '\'').replace(/"/, '\"');
       // stub for later features right now just echo into the system process for SIGINT monitoring.
       exec(`echo "${packet.q.text}"`, (error, stdout, stderr) => {
