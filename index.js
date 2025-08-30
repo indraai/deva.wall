@@ -37,39 +37,43 @@ const WALL = new Deva({
   },
   listeners: {
     'devacore:question'(packet) {
-      const md5 = this.lib.hash(packet, 'md5');
-      const sha256 = this.lib.hash(packet, 'sha256');
-      const sha512 = this.lib.hash(packet, 'sha512');
-      const echostr = `transport: ${packet.id} md5:${md5} | sha256:${sha256} | sha512:${sha512} | created:${packet.created}`;
-      // stub for later features right now just echo into the system process for SIGINT monitoring.
-      exec(`echo "${echostr}"`, (error, stdout, stderr) => {
-        if (error) {
-          console.log('error', error);        
-        }
-        else if (stderr) {
-          console.log('stderr', stderr);
-        }
-      });
+      this.func.echostr(packet.q);
     },
     'devacore:answer'(packet) {
-      const md5 = this.lib.hash(packet, 'md5');
-      const sha256 = this.lib.hash(packet, 'sha256');
-      const sha512 = this.lib.hash(packet, 'sha512');
-      const echostr = `transport: ${packet.id} md5:${md5} | sha256:${sha256} | sha512:${sha512} | created:${packet.created}`;
-      // stub for later features right now just echo into the system process for SIGINT monitoring.
-      exec(`echo "${echostr}"`, (error, stdout, stderr) => {
-        if (error) {
-          console.log('error', error);        
-        }
-        else if (stderr) {
-          console.log('stderr', stderr);
-        }
-      });
+      this.func.echostr(packet.a);
     }
   },
   modules: {},
   devas: {},
-  func: {},
+  func: {
+    echostr(opts) {
+      const {id, agent, client, md5, sha256, sha512} = opts;
+      const created = Date.now();
+
+      this.action('func', `echostr:${id}`);
+      this.state('set', `echostr:${id}`);
+      const echostr = [
+        `::begin:wall:${id}`,
+        `transport: ${id}`, 
+        `client: ${client.profile.id}`, 
+        `agent: ${agent.profile.id}`, 
+        `created: ${created}`, 
+        `md5: ${md5}`, 
+        `sha256:${sha256}`, 
+        `sha512:${sha512}`
+        `::end:wall:${id}`,
+      ].join('\n');
+
+      // stub for later features right now just echo into the system process for SIGINT monitoring.
+      const echo = spawn('echo', echostr)
+      echo.stderr.on('data', err => {
+        this.error(err, opts);
+      });
+      
+      this.state('return', `echostr:${id}`);
+      return echostr;
+    }
+  },
   methods: {},
   onReady(data, resolve) {
     this.prompt(this.vars.messages.ready);
