@@ -60,12 +60,12 @@ const WALL = new Deva({
         `created: ${created}`, 
         `md5: ${md5}`, 
         `sha256:${sha256}`, 
-        `sha512:${sha512}`
+        `sha512:${sha512}`,
         `::end:wall:${id}`,
       ].join('\n');
 
       // stub for later features right now just echo into the system process for SIGINT monitoring.
-      const echo = spawn('echo', echostr)
+      const echo = spawn('echo', [echostr])
       echo.stderr.on('data', err => {
         this.error(err, opts);
       });
@@ -76,12 +76,7 @@ const WALL = new Deva({
   },
   methods: {},
   onReady(data, resolve) {
-    this.prompt(this.vars.messages.ready);
-    this.vars.userinfo = this.lib.os.userInfo();
-
-    console.log('userinfo', this.vars.userinfo);
-    return resolve(data);
-    
+    this.prompt(this.vars.messages.ready);    
   },
   onError(data, err, reject) {
     this.prompt(this.vars.messages.error);
