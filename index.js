@@ -37,10 +37,10 @@ const WALL = new Deva({
   },
   listeners: {
     'devacore:question'(packet) {
-      const echo = this.methods.echo('guard', 'q', packet);
+      const echo = this.methods.echo('wall', 'q', packet);
     },
     'devacore:answer'(packet) {
-      const echo = this.methods.echo('guard', 'a', packet);
+      const echo = this.methods.echo('wall', 'a', packet);
     }    
   },
   modules: {},
