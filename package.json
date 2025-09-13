@@ -28,7 +28,7 @@
   },
   "homepage": "https://deva.space/devas/wall",
   "dependencies": {
-    "@indra.ai/deva": "^1.6.63"
+    "@indra.ai/deva": "^1.6.64"
   },
   "data": {
     "agent": {
@@ -85,7 +85,7 @@
         "exit": "🟡 EXIT",
         "done": "🟣 DONE",
         "error": "💣 ERROR!",
-        "ready": "⭐️ Ready!"
+        "ready": "👷 Ready for Wall Construction."
       },
       "ask": {
         "history": []
