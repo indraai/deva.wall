@@ -1,19 +1,19 @@
-// Copyright (c)2025 Quinn A Michaels
-// Indra Deva test file
+
+// Wall Deva test file
 
 const {expect} = require('chai')
-const :key: = require('./index.js');
+const WallDeva = require('./index.js');
 
-describe(indra.me.name, () => {
+describe(WallDeva.me.name, () => {
   beforeEach(() => {
-    return indra.init()
+    return WallDeva.init()
   });
   it('Check the DEVA Object', () => {
-    expect(indra).to.be.an('object');
-    expect(indra).to.have.property('agent');
-    expect(indra).to.have.property('vars');
-    expect(indra).to.have.property('listeners');
-    expect(indra).to.have.property('methods');
-    expect(indra).to.have.property('modules');
+    expect(WallDeva).to.be.an('object');
+    expect(WallDeva).to.have.property('agent');
+    expect(WallDeva).to.have.property('vars');
+    expect(WallDeva).to.have.property('listeners');
+    expect(WallDeva).to.have.property('methods');
+    expect(WallDeva).to.have.property('modules');
   });
 })

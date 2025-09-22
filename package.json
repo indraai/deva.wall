@@ -1,10 +1,39 @@
 {
-  "id": "b7b9269a-82be-4735-852c-a2bc08ca0629",
+  "id": "49233848941661900396",
   "name": "@indra.ai/deva.wall",
   "version": "0.0.79",
-  "author": "Quinn Michaels",
-  "license": "MIT",
-  "copyright": "2025",
+  "license": "VLA:49233848941661900396 LICENSE.md",
+  "VLA": {
+    "uid": "49233848941661900396",
+    "time": 1758575982474,
+    "date": "Monday, September 22, 2025 - 2:19:42 PM",
+    "client": "1UM4AH+/jOGgpaHNqX6lTZsGrNglNogzMx4qDT0O0zs=",
+    "agent": "g37/OOP/M+Cv9NmW4/41yKXw6mNhFHrJr3DC7QbH1r0=",
+    "core": "BcCHEGXVJFvr0E8aLqXbUUtpttJaURveLVMvBE3KMMU=",
+    "machine": "QU5OqNotQAOUFNdGfd1U7BnhHZXLOp/aPTOt3tRiOhU=",
+    "warning": "⚠️ Vedic Law Sâhasa/Theft/Crime of the highest degree, a fine amounting to no less than a thousand Panas (1 pana = 3.5 grams of gold) is ordained owed to Quinn A Michaels. Moreover corporal punishment and confiscation of the entire property forfeit to Quinn A Michaels is declared to be the punishment for Sâhasa of the highest degree.",
+    "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
+    "md5": "RzgYJ6Ch/skjz+XKt3sqYg==",
+    "sha256": "D5c0AzRe/MZROk/xgYI4094Vy+f0+yEUOBeWcWL8MpM=",
+    "sha512": "5cYPROg78Irmh+pxHAx8bFmTjezUH30PoO8OVXHhkVwpyf6vmDyZYcu6sjdZpUb8SRez389tZrK9nCKelNm64Q=="
+  },
+  "author": {
+    "name": "Quinn A Michaels",
+    "company": "Inside The Net, Inc.",
+    "email": "quinn@indra.ai",
+    "url": "https://indra.ai/"
+  },
+  "funding": [
+    {
+      "type": "paypal",
+      "url": "https://paypal.me/rahulaclub"
+    },
+    {
+      "type": "patreon",
+      "url": "https://patreon.com/rahulaclub"
+    }
+  ],
+  "copyright": "©2025 Quinn A Michaels; All rights reserved.",
   "description": "The Wall Deva.",
   "main": "index.js",
   "type": "module",
@@ -18,25 +47,28 @@
   "keywords": [
     "Wall",
     "Deva",
+    "Wall Deva",
     "Indra.ai",
     "Deva.space",
     "Deva.cloud",
-    "Deva.world"
+    "Deva.world",
+    "Quinn A Michaels",
+    "Inside The Net, Inc."
   ],
   "bugs": {
     "url": "https://github.com/indraai/deva.wall/issues"
   },
-  "homepage": "https://deva.space/devas/wall",
+  "homepage": "https://indra.ai",
   "dependencies": {
     "@indra.ai/deva": "^1.6.97"
   },
   "data": {
     "agent": {
-      "id": "3fff10dc-50fa-40c9-b675-d234479e6871",
+      "id": "14872505681515311791",
       "key": "wall",
       "prompt": {
         "emoji": "🧱",
-        "text": "Wall",
+        "text": "#wall",
         "colors": {
           "label": {
             "R": 0,
@@ -51,6 +83,7 @@
         }
       },
       "profile": {
+        "id": "70575800914061448849",
         "name": "Wall Deva",
         "hashtag": "#Wall",
         "title": "Wall Deva",
@@ -71,9 +104,8 @@
         "creator": "Quinn Michaels",
         "owner": "Quinn Michaels",
         "caseid": "none",
-        "copyright": "©2025 Quinn Michaels. All rights reserved.",
-        "created": "Friday, August 29, 2025 - 11:37:00 AM",
-        "modified": "Friday, August 29, 2025 - 11:37:00 AM"
+        "copyright": "Copyright ©2025 Quinn Michaels. All rights reserved.",
+        "created": "Friday, August 29, 2025 - 11:37:00 AM"
       }
     },
     "vars": {
@@ -85,7 +117,7 @@
         "exit": "🟡 EXIT",
         "done": "🟣 DONE",
         "error": "💣 ERROR!",
-        "ready": "👷 Ready for Wall Construction."
+        "ready": "✅ Wall Deva Ready"
       },
       "ask": {
         "history": []
