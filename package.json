@@ -53,14 +53,16 @@
     "Deva.cloud",
     "Deva.world",
     "Quinn A Michaels",
-    "Inside The Net, Inc."
+    "Inside The Net, Inc.",
+    "Throwing Pigment",
+    "bleuBrain"
   ],
   "bugs": {
     "url": "https://github.com/indraai/deva.wall/issues"
   },
   "homepage": "https://indra.ai",
   "dependencies": {
-    "@indra.ai/deva": "^1.18.0"
+    "@indra.ai/deva": "^1.19.0"
   },
   "data": {
     "agent": {
@@ -97,13 +99,13 @@
         "style": "A Cyber Security Wall.",
         "system": "Deva.world.wall",
         "layout": "default",
-        "emoji": "/assets/devas/wall/emoji.png",
-        "avatar": "/assets/devas/wall/avatar.png",
-        "image": "/assets/devas/wall/image.png",
-        "background": "/assets/devas/wall/background.png",
-        "creator": "Quinn Michaels",
-        "owner": "Quinn Michaels",
-        "caseid": "none",
+        "emoji": "/devas/wall/emoji.png",
+        "avatar": "/devas/wall/avatar.png",
+        "image": "/devas/wall/image.png",
+        "background": "/devas/wall/background.png",
+        "creator": "Quinn A Michaels",
+        "owner": "Quinn A Michaels",
+        "warning": "Irresistible, be thou a mighty iron fort to us, With hundred walls for man's defence. Do thou preserve us, eve and morn, from sorrow, from the wicked men, Infallible! By day and night.",
         "copyright": "Copyright ©2025 Quinn Michaels. All rights reserved.",
         "created": "Friday, August 29, 2025 - 11:37:00 AM"
       }
