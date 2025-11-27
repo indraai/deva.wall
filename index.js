@@ -1,7 +1,8 @@
 "use strict";
-// Copyright ©2025 Quinn A Michaels; All rights reserved. 
+// Copyright ©2000-2025 Quinn A Michaels; All rights reserved. 
 // Legal Signature Required For Lawful Use.
-// Distributed under VLA:49233848941661900396 LICENSE.md
+// Distributed under VLA:15514145251199788621 LICENSE.md
+// Thursday, November 27, 2025 - 2:02:54 PM
 
 // Wall Deva
 
@@ -31,7 +32,7 @@ const info = {
   copyright: pkg.copyright
 };
 
-const WALL = new Deva({
+const WallDeva = new Deva({
   info,
   agent,
   vars,
@@ -65,5 +66,5 @@ const WALL = new Deva({
     return reject(err);
   },
 });
-export default WALL
+export default WallDeva
 

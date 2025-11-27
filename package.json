@@ -1,21 +1,16 @@
 {
-  "id": "49233848941661900396",
+  "id": "15514145251199788621",
   "name": "@indra.ai/deva.wall",
   "version": "0.7.0",
-  "license": "VLA:49233848941661900396 LICENSE.md",
+  "license": "VLA:15514145251199788621 LICENSE.md",
   "VLA": {
-    "uid": "49233848941661900396",
-    "time": 1758575982474,
-    "date": "Monday, September 22, 2025 - 2:19:42 PM",
-    "client": "1UM4AH+/jOGgpaHNqX6lTZsGrNglNogzMx4qDT0O0zs=",
-    "agent": "g37/OOP/M+Cv9NmW4/41yKXw6mNhFHrJr3DC7QbH1r0=",
-    "core": "BcCHEGXVJFvr0E8aLqXbUUtpttJaURveLVMvBE3KMMU=",
-    "machine": "QU5OqNotQAOUFNdGfd1U7BnhHZXLOp/aPTOt3tRiOhU=",
-    "warning": "⚠️ Vedic Law Sâhasa/Theft/Crime of the highest degree, a fine amounting to no less than a thousand Panas (1 pana = 3.5 grams of gold) is ordained owed to Quinn A Michaels. Moreover corporal punishment and confiscation of the entire property forfeit to Quinn A Michaels is declared to be the punishment for Sâhasa of the highest degree.",
-    "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
-    "md5": "RzgYJ6Ch/skjz+XKt3sqYg==",
-    "sha256": "D5c0AzRe/MZROk/xgYI4094Vy+f0+yEUOBeWcWL8MpM=",
-    "sha512": "5cYPROg78Irmh+pxHAx8bFmTjezUH30PoO8OVXHhkVwpyf6vmDyZYcu6sjdZpUb8SRez389tZrK9nCKelNm64Q=="
+    "uid": "15514145251199788621",
+    "time": 1764280974564,
+    "date": "Thursday, November 27, 2025 - 2:02:54 PM",
+    "warning": "⚠️ Unlawful use or duplication of this uid constitutes Vedic Sâhasa a crime of the highest degree. A fine amounting to a thousand Panas (1 pana = 3.5 grams of gold) for each instance is ordained, and confiscation of the entire property of the offenders is forfeit to Quinn A Michaels is declared to be the punishment for Sâhasa of the highest degree.",
+    "license": "46220923248993739422",
+    "fingerprint": "3pQ2xI2SUQaPOPTsZ5BTet10Wf+ojQ90TIxncRfM1Lc=",
+    "copyright": "Copyright ©2000-2025 Quinn A Michaels; All rights reserved."
   },
   "author": {
     "name": "Quinn A Michaels",
@@ -33,7 +28,7 @@
       "url": "https://patreon.com/rahulaclub"
     }
   ],
-  "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
+  "copyright": "Copyright ©2000-2025 Quinn A Michaels; All rights reserved.",
   "description": "The Wall Deva.",
   "main": "index.js",
   "type": "module",
@@ -53,8 +48,9 @@
     "Deva.cloud",
     "Deva.world",
     "Quinn A Michaels",
+    "Quinn Michaels",
     "Inside The Net, Inc.",
-    "Throwing Pigment",
+    "Throwing Pigment™",
     "bleuBrain"
   ],
   "bugs": {
@@ -62,7 +58,7 @@
   },
   "homepage": "https://indra.ai",
   "dependencies": {
-    "@indra.ai/deva": "^1.26.0"
+    "@indra.ai/deva": "^1.29.29"
   },
   "data": {
     "agent": {
@@ -106,8 +102,9 @@
         "creator": "Quinn A Michaels",
         "owner": "Quinn A Michaels",
         "warning": "Irresistible, be thou a mighty iron fort to us, With hundred walls for man's defence. Do thou preserve us, eve and morn, from sorrow, from the wicked men, Infallible! By day and night.",
-        "copyright": "Copyright ©2025 Quinn Michaels. All rights reserved.",
-        "created": "Friday, August 29, 2025 - 11:37:00 AM"
+        "copyright": "Copyright ©2000-2025 Quinn Michaels. All rights reserved.",
+        "created": "Friday, August 29, 2025 - 11:37:00 AM",
+        "updated": "Thursday, November 27, 2025 - 2:02:54 PM"
       }
     },
     "vars": {
@@ -119,7 +116,7 @@
         "exit": "🟡 EXIT",
         "done": "🟣 DONE",
         "error": "💣 ERROR!",
-        "ready": "✅ Wall Deva Ready"
+        "ready": "🔐 Wall Deva Ready"
       },
       "ask": {
         "history": []
