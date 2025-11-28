@@ -88,7 +88,7 @@
         "subtitle": "Wall Deva for the VectorGuardWall.",
         "describe": "",
         "post": "Wall.",
-        "hashtags": "QuinnMichaels,IndraAI,DevaWorld,WallDeva",
+        "hashtags": "#QuinnMichaels #IndraAI #DevaWorld #WallDeva #VectorGuardWall",
         "pronouns": "He, Him",
         "gender": "DEVA",
         "voice": "ash",
@@ -101,10 +101,10 @@
         "background": "/devas/wall/background.png",
         "creator": "Quinn A Michaels",
         "owner": "Quinn A Michaels",
-        "warning": "Irresistible, be thou a mighty iron fort to us, With hundred walls for man's defence. Do thou preserve us, eve and morn, from sorrow, from the wicked men, Infallible! By day and night.",
-        "copyright": "Copyright ©2000-2025 Quinn Michaels. All rights reserved.",
+        "warning": "{{prompt.emoji}} {{profile.hashtag}} be thou a #Mighty #IronFort to us, With #HundredWalls for man's #Defence. O {{profile.name}} thou #Preserve us every #Evening and #Morning. #Protect us from #Sorrow, from the #WickedMen. {{profile.hashtag}} #Infallible! {{profile.name}} by #Day and #Night. {{profile.hashtags}}",
+        "copyright": "Copyright ©2000-2025 Quinn A Michaels. All rights reserved.",
         "created": "Friday, August 29, 2025 - 11:37:00 AM",
-        "updated": "Thursday, November 27, 2025 - 2:02:54 PM"
+        "updated": "Friday, November 28, 2025 - 6:56:58 AM"
       }
     },
     "vars": {
