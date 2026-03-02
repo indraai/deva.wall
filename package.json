@@ -118,7 +118,7 @@
         "exit": "🟡 EXIT",
         "done": "🟣 DONE",
         "error": "💣 ERROR!",
-        "ready": "🔐 Wall Deva Ready"
+        "ready": "🧱 Wall Deva Ready"
       },
       "ask": {
         "history": []
