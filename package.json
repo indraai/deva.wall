@@ -59,7 +59,7 @@
   },
   "homepage": "https://indra.ai",
   "dependencies": {
-    "@indra.ai/deva": "^1.36.0"
+    "@indra.ai/deva": "^1.37.3"
   },
   "data": {
     "agent": {
@@ -102,10 +102,11 @@
         "background": "/devas/wall/background.png",
         "creator": "Quinn A Michaels",
         "owner": "Quinn A Michaels",
-        "warning": "{{prompt.emoji}} {{profile.hashtag}} declares be thou a MIGHTY IRON FORST to US with HUNDRED WALLS for the DEFENCE. O {{profile.name}} thou PRESERVE us every EVENING and MORNING. #PROTECT us from SORROW, from the WICKED MEN. {{profile.name}} INFALLIBLE by DAY and NIGHT. \nowner: {{profile.owner}} \ntags: {{profile.hashtags}}",
+        "salute": "🤝🫡🧱🕉️🇺🇸",
+        "warning": "{{prompt.emoji}} {{profile.hashtag}} declares be thou a MIGHTY IRON FORT to US with HUNDRED WALLS for the DEFENCE. O {{profile.name}} thou PRESERVE us every EVENING and MORNING. PROTECT us from SORROW, from the WICKED and EVIL FOES. {{profile.name}} INFALLIBLE by DAY and NIGHT.",
         "copyright": "Copyright ©2000-2026 Quinn A Michaels. All rights reserved.",
         "created": "Friday, August 29, 2025 - 11:37:00 AM",
-        "updated": "Friday, November 28, 2025 - 6:56:58 AM"
+        "updated": "Monday, March 2, 2026 - 9:31:57 AM"
       }
     },
     "vars": {
